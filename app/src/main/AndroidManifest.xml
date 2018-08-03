@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mo.testeverything">
 
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +20,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SingleInstance.Bean.SingleInstanceActivity" />
+        <activity android:name=".TableLayout.TableLayoutActivity" />
+        <activity android:name=".rocker.RockerActivity">
+            <intent-filter>
+                <action android:name="com.mo.testeverything.action.SHORTCUT" /> <!-- 自定义的action，通过自定义的action可以跨app调用到activity -->
+                <action android:name="android.intent.action.MAIN" /> <!-- 当程序删除时，快捷方式也会跟着删除 -->
+                <category android:name="android.intent.category.DEFAULT" /> <!-- 必须加上这个，否则下面无法直接使用自定的action -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".shortcut.ShortCutActivity" />
+        <activity android:name=".RobotUI.RobotUiActivity" />
+        <activity android:name=".IdCode.IdCodeActivity"></activity>
     </application>
 
 </manifest>

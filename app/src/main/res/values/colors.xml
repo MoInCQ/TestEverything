@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="rockerInnerColorDefault">#FFFFFF</color>
+    <color name="rockerOuterColorDefault">#50DCDCDC</color>
+
+    <color name="colorRobotPrimary">#03A9F4</color>
+    <color name="colorRobotTitle">#515151</color>
+
 </resources>

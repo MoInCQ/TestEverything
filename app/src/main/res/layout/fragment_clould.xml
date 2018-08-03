@@ -1,0 +1,73 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center" >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_robot_cloud"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_fra_cloud_icon"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="50dp"
+                android:src="@drawable/ic_robot_cloud"
+                android:background="#ffb74d"/>
+
+            <TextView
+                android:id="@+id/tv_fra_cloud_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="云设备"
+                android:textStyle="bold"
+                android:textColor="@color/colorRobotTitle"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/iv_fra_cloud_icon"/>
+
+            <TextView
+                android:id="@+id/tv_fra_cloud_synopsis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginStart="21dp"
+                android:gravity="center"
+                android:text="帮助您随时与您的病人进行面对面沟通"
+                android:textColor="#8a8a8a"
+                android:textSize="14sp"
+                android:layout_below="@+id/tv_fra_cloud_title"/>
+
+
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_fra_cloud_enter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                app:backgroundTint="#ffb74d"
+                android:src="@drawable/ic_robot_enter"
+                android:layout_marginBottom="40dp"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
