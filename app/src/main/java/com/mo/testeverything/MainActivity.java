@@ -1,6 +1,7 @@
 package com.mo.testeverything;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,9 @@ import android.widget.Button;
 
 import com.mo.testeverything.IdCode.IdCodeActivity;
 import com.mo.testeverything.RobotUI.RobotUiActivity;
+import com.mo.testeverything.fadeinandout.FadeInAndOutActivity;
+import com.mo.testeverything.fresco.FrescoTestActivity;
+import com.mo.testeverything.imageoverturn.ImageOverturnActivity;
 import com.mo.testeverything.rocker.RockerActivity;
 import com.mo.testeverything.SingleInstance.Bean.SingleInstanceActivity;
 import com.mo.testeverything.TableLayout.TableLayoutActivity;
@@ -22,6 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_shortcut;
     private Button btn_robot_ui;
     private Button btn_id_code;
+    private Button btn_image_overturn;
+    private Button btn_fresco_test;
+    private Button btn_fade_in_and_out;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,9 +78,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent5 = new Intent(MainActivity.this, IdCodeActivity.class);
                 startActivity(intent5);
                 break;
+            case R.id.btn_main_iamge_overturn:
+                Intent intent6 = new Intent(MainActivity.this, ImageOverturnActivity.class);
+                startActivity(intent6);
+                break;
+            case R.id.btn_main_fresco:
+                Intent intent7 = new Intent(MainActivity.this, FrescoTestActivity.class);
+                startActivity(intent7);
+                break;
+            case R.id.btn_main_fade_in_and_out:
+                Intent intent8 = new Intent(MainActivity.this, FadeInAndOutActivity.class);
+                startActivity(intent8);
+                break;
             default:
         }
-
     }
 
     private void initView(){
@@ -94,5 +112,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btn_id_code = (Button) findViewById(R.id.btn_main_id_code);
         btn_id_code.setOnClickListener(this);
+
+        btn_image_overturn = (Button) findViewById(R.id.btn_main_iamge_overturn);
+        btn_image_overturn.setOnClickListener(this);
+
+        btn_fresco_test = (Button) findViewById(R.id.btn_main_fresco);
+        btn_fresco_test.setOnClickListener(this);
+
+        btn_fade_in_and_out = (Button) findViewById(R.id.btn_main_fade_in_and_out);
+        btn_fade_in_and_out.setOnClickListener(this);
     }
 }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-TestEverything.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-TestEverything.iml" group="TestEverything" />
       <module fileurl="file://$PROJECT_DIR$/TestEverything.iml" filepath="$PROJECT_DIR$/TestEverything.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/TestEverything-app.iml" filepath="$PROJECT_DIR$/app/TestEverything-app.iml" group="TestEverything/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

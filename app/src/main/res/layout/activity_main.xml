@@ -1,49 +1,70 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <Button
+    android:id="@+id/btn_main_single_instance"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="单例设计模式" />
 
-    <Button
-        android:id="@+id/btn_main_single_instance"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="单例设计模式"/>
+  <Button
+    android:id="@+id/btn_main_table_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="TableLayout"
+    android:textAllCaps="false" />
 
-    <Button
-        android:id="@+id/btn_main_table_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="TableLayout"
-        android:textAllCaps="false" />
+  <Button
+    android:id="@+id/btn_main_rocker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="自定义摇杆" />
 
-    <Button
-        android:id="@+id/btn_main_rocker"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="自定义摇杆" />
+  <Button
+    android:id="@+id/btn_main_shotcut"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="创建快捷方式" />
 
-    <Button
-        android:id="@+id/btn_main_shotcut"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="创建快捷方式" />
+  <Button
+    android:id="@+id/btn_main_robot_ui"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="机器人界面测试" />
 
-    <Button
-        android:id="@+id/btn_main_robot_ui"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="机器人界面测试"/>
+  <Button
+    android:id="@+id/btn_main_id_code"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="随机验证码生成" />
 
-    <Button
-        android:id="@+id/btn_main_id_code"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="随机验证码生成"/>
+  <Button
+    android:id="@+id/btn_main_iamge_overturn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="翻转图片" />
+
+  <Button
+    android:id="@+id/btn_main_fresco"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="fresco测试" />
+
+  <Button
+    android:id="@+id/btn_main_fade_in_and_out"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="多张图片原地淡入淡出" />
 
 </LinearLayout>
