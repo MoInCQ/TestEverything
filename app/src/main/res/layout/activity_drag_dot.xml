@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <com.mo.testeverything.dragdot.DragDotView
+    android:id="@+id/ddv"
+    android:layout_width="wrap_content"
+    android:layout_height="14dp"
+    android:layout_gravity="center"
+    android:padding="2dp"
+    app:ddvBackground="@color/colorAccent"
+    app:ddvText="3"
+    app:ddvTextColor="@color/rockerInnerColorDefault"
+    app:ddvTextSize="13sp" />
+</LinearLayout>

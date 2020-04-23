@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <declare-styleable name="DragDotView">
+        <attr name="ddvText" format="string" />
+        <attr name="ddvBackground" format="color"/>
+        <attr name="ddvTextSize" format="dimension"/>
+        <attr name="ddvTextColor" format="color"/>
+        <attr name="ddvCornerSize" format="integer"/>
+    </declare-styleable>
 </resources>

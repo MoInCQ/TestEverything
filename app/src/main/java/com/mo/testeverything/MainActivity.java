@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.mo.testeverything.IdCode.IdCodeActivity;
 import com.mo.testeverything.RobotUI.RobotUiActivity;
+import com.mo.testeverything.dragdot.DragDotActivity;
 import com.mo.testeverything.fadeinandout.FadeInAndOutActivity;
 import com.mo.testeverything.fresco.FrescoTestActivity;
 import com.mo.testeverything.imageoverturn.ImageOverturnActivity;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_image_overturn;
     private Button btn_fresco_test;
     private Button btn_fade_in_and_out;
+    private Button btn_drag_dot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +92,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent8 = new Intent(MainActivity.this, FadeInAndOutActivity.class);
                 startActivity(intent8);
                 break;
+            case R.id.btn_main_drag_dot:
+                Intent intent9 = new Intent(MainActivity.this, DragDotActivity.class);
+                startActivity(intent9);
+                break;
             default:
         }
     }
@@ -121,5 +127,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btn_fade_in_and_out = (Button) findViewById(R.id.btn_main_fade_in_and_out);
         btn_fade_in_and_out.setOnClickListener(this);
+
+        btn_drag_dot = (Button) findViewById(R.id.btn_main_drag_dot);
+        btn_drag_dot.setOnClickListener(this);
     }
 }

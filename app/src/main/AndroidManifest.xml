@@ -10,7 +10,8 @@
     android:roundIcon="@mipmap/ic_launcher_round"
     android:supportsRtl="true"
     android:theme="@style/AppTheme">
-    <activity android:name=".fadeinandout.FadeInAndOutActivity"></activity>
+    <activity android:name=".dragdot.DragDotActivity"></activity>
+    <activity android:name=".fadeinandout.FadeInAndOutActivity" />
     <activity android:name=".fresco.FrescoTestActivity" />
     <activity android:name=".imageoverturn.ImageOverturnActivity" />
     <activity android:name=".MainActivity">
@@ -33,10 +34,10 @@
     <activity android:name=".RobotUI.RobotUiActivity" />
     <activity android:name=".IdCode.IdCodeActivity" />
   </application>
-  <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
   <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
   <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
-
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+  <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
 
 </manifest>
