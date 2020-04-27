@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/TestEverything.iml" filepath="$PROJECT_DIR$/TestEverything.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/TestEverything-app.iml" filepath="$PROJECT_DIR$/app/TestEverything-app.iml" group="TestEverything/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testlibrary/testlibrary.iml" filepath="$PROJECT_DIR$/testlibrary/testlibrary.iml" group="TestEverything/testlibrary" />
     </modules>
   </component>
 </project>

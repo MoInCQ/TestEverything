@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="drag_dot_view_bg">#F25A5A</color>
+
     <color name="rockerInnerColorDefault">#FFFFFF</color>
     <color name="rockerOuterColorDefault">#50DCDCDC</color>
 

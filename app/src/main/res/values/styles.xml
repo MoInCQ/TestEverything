@@ -14,5 +14,9 @@
         <attr name="ddvTextSize" format="dimension"/>
         <attr name="ddvTextColor" format="color"/>
         <attr name="ddvCornerSize" format="integer"/>
+        <attr name="ddvStockWidth" format="dimension" />
+        <attr name="ddvStockColor" format="color" />
+        <attr name="ddvVerticalTotalPadding" format="dimension" />
+        <attr name="ddvHorizontalTotalPadding" format="dimension" />
     </declare-styleable>
 </resources>

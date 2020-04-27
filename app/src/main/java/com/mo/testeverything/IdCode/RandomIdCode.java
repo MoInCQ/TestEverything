@@ -96,7 +96,7 @@ public class RandomIdCode {
         }
 
         //保存
-        c.save( Canvas.ALL_SAVE_FLAG );
+        //c.save(Canvas.ALL_SAVE_FLAG);
         c.restore();//
         return bp;
     }
